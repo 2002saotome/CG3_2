@@ -93,7 +93,8 @@ class Material {
 
   private:
 	// コンストラクタ
-	Material() {
+	Material() 
+	{
 		ambient = {0.3f, 0.3f, 0.3f};
 		diffuse = {0.0f, 0.0f, 0.0f};
 		specular = {0.0f, 0.0f, 0.0f};
