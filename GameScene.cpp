@@ -43,7 +43,7 @@ void GameScene::Initialize(DirectXCommon* dxCommon, Input* input)
 	camera = new DebugCamera(WinApp::kWindowWidth, WinApp::kWindowHeight, input);
 
 	// カメラ注視点をセット
-	camera->SetTarget({0, 1, 0});
+	camera->SetTarget({ 0, 1, 0 });
 	camera->SetDistance(3.0f);
 
     // 3Dオブジェクトにカメラをセット
